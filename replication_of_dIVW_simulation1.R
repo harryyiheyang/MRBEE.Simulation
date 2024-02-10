@@ -38,7 +38,7 @@ sim_settings[7:12,2] <-  c(2.5, 2.5, 4.5, 4.5, 5.5, 5.5)
 sim_settings[7:12,2] <-  c(4, 4, 6.5, 6.5, 9, 9)
 }
 colnames(sim_settings) <- c('beta','D','rho')
-n_rep = 100
+n_rep = 1000
 
 for (m in 1:nrow(sim_settings)) {
 res.beta1 <- matrix(nrow = n_rep, ncol = 17)
