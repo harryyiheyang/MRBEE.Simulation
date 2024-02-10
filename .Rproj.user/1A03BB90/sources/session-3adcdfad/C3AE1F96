@@ -1,9 +1,9 @@
 {
     "id": "C3AE1F96",
-    "path": "E:/mrbee/R/readme.md",
-    "project_path": null,
+    "path": "C:/Users/yxy1234/Desktop/MRBEE.Simulation/readme.md",
+    "project_path": "readme.md",
     "type": "markdown",
-    "hash": "0",
+    "hash": "2309891958",
     "contents": "",
     "dirty": false,
     "created": 1707607466543.0,
@@ -17,11 +17,11 @@
         "scrollLine": "21"
     },
     "folds": "",
-    "lastKnownWriteTime": 1707608808,
+    "lastKnownWriteTime": 1707608946,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1707608808074,
+    "last_content_update": 1707608946914,
     "read_only": false,
     "read_only_alternatives": []
 }
