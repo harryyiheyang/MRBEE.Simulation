@@ -24,7 +24,7 @@ bXse = bXse * byseinv
 byse1 = byse
 byse = byse / byse
 ```
-We have already fixed this bug. Using the corrected function and dIVW's code (https://github.com/yinxiangwu/Debiased.MVMR.simulations), we replicated the scenarios in simulation_study1.R, and remade the table corresponding to Table 1 in the article. Based on the updated MRBEE, we found that in most cases, MRBEE performs similarly to dIVW, but with a higher coverage frequency. This is due to MRBEE's adjusted variance calculation, which does not use the standard sandwich formula. adIVW and MRBEE can be considered different methods: adIVW has less bias and smaller SD.
+We have already fixed this bug. Using the corrected function, we replicated the scenarios in simulation_study1.R ([https://github.com/yinxiangwu/Debiased.MVMR.simulations](https://github.com/yinxiangwu/Debiased.MVMR.simulations/blob/main/R%20code%20for%20simulations/simulation_study1.R)), and remade the table corresponding to Table 1 in the article. Based on the updated MRBEE, we found that in most cases, MRBEE performs similarly to dIVW, but with a higher coverage frequency. This is due to MRBEE's adjusted variance calculation, which does not use the standard sandwich formula. adIVW and MRBEE can be considered different methods: adIVW has less bias and smaller SD.
 
 ![Table 1 Results](table1.png)
 
