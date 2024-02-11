@@ -13,7 +13,7 @@ Describes the codes for simulation.
 ### non_pleiotropy_case.R, unbalanced_uhp_case.R, and correlated_pleiotropy_case.R 
 Consider the three main cases: no pleiotropy, 30% unbalanced uncorrelated horizontal pleiotropy, and 30% correlated horizontal pleiotropy case. You can change `M` (the number of IVs) and `overlap` (0: 0% sample overlap and 1: 100% sample overlap).
 
-### replication_of_dIVW-simulation.R
+### replication_of_dIVW_simulation.R
 Replicates the simulations for the latest dIVW method ([arXiv link](https://arxiv.org/pdf/2402.00307.pdf)). We noticed discrepancies in the performance of MRBEE compared to the results shared in our preprint. Consequently, we replicate the simulations to identify the issues with MRBEE. 
 In both our simulations and actual data analyses, MRBEE operates on standardized GWAS data. The data in your simulations were not standardized, leading to highly unreliable estimates from MRBEE. This issue can be easily fixed by standardizing at the beginning of the function:
 ```R
